@@ -8,11 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        'dark-green':'#575e55',
+        'light-green-1':'#cde9ca',
+        'light-green-2':'#ced89d',
+        'orange':'#e8a249',
+        'light-brown':'#dfba74',
       },
+      background:{
+        carouselGradiant: "linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%)"
+      }
     },
   },
   plugins: [],
