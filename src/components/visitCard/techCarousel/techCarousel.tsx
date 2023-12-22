@@ -52,7 +52,7 @@ export default function TechCarousel(){
         duration: 1000*techs.length,
       }
     })
-    console.log(iconSize)
+    
     return(
       <div id="Carousel" className={'overflow-hidden rounded-xl pt-2 pb-2 shadow-carouselInner xl:w-[30vw] w-[80vw] xl:h-[8rem] h-[4rem] bg-white '}>
         <animated.div style={spring} className={`h-full flex`}>

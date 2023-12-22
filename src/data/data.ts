@@ -23,7 +23,7 @@ export const projects: Array<IProject> = [
 {
     title: "Multivale",
     icon: "/assets/multivale.jpeg",
-    description: "Realizando quando fiz parte da empresa júnior da unesp. Nesse projeto, atuei como gerente de desenvolvedor frontend. Se trata de um site institucional de uma empresa de engenharia civil",
+    description: "Realizando quando fiz parte da empresa júnior da unesp. Nesse projeto, atuei como gerente de desenvolvedor frontend. Se trata de um site institucional de uma empresa de engenharia civil.",
     technologies: [
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", 
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",
@@ -32,7 +32,7 @@ export const projects: Array<IProject> = [
 {
     title: "Astroflora",
     icon: "/assets/astroflora.jpeg",
-    description: "Realizando quando fiz parte da empresa júnior da unesp. Nesse projeto, atuei como gerente de desenvolvedor frontend. Se trata de um e-commerce de sementes e outros insumos agrícolas. Também dei apoio na implentação do gateway de pagaento do mercado pago",
+    description: "Realizando quando fiz parte da empresa júnior da unesp. Nesse projeto, atuei como gerente de desenvolvedor frontend. Se trata de um e-commerce de sementes e outros insumos agrícolas. Também dei apoio na implentação do gateway de pagamento do mercado pago.",
     technologies: [
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", 
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",
@@ -41,7 +41,7 @@ export const projects: Array<IProject> = [
 {
     title: "FoFoca",
     icon: "/assets/fofoca.png",
-    description: "Projeto pessoal, feito para um minicurso de React que eu ministrei. Se trada de um bate papo online. Trabalhei tanto no frontend como no backend. No backend, foi feito um socket para comunicação em tempo real entre os usuários. Esse projeto está presente no meu GitHub",
+    description: "Projeto pessoal, feito para um minicurso de React que eu ministrei. Se trada de um bate papo online. Trabalhei tanto no frontend como no backend. No backend, foi feito um socket para comunicação em tempo real entre os usuários. Esse projeto está presente no meu GitHub.",
     technologies: [
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", 
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",

@@ -1,11 +1,13 @@
 export default function ProfileDetails(){
     
+    function checkBirthdayAlreadyHappen(birthdate: Date, today: Date): boolean{
+        return (today.getMonth() > birthdate.getMonth() || (today.getMonth() == birthdate.getMonth() && today.getDate() >= birthdate.getDate()))
+    }
+
     function age() {
-        const birthdate = new Date("July 20, 2000 01:15:00");
+        const birthdate = new Date(2000, 7, 20);
         const today = new Date();
-        const age = today.getFullYear() - birthdate.getFullYear() - 
-                   (today.getMonth() < birthdate.getMonth() || 
-                   (today.getMonth() === birthdate.getMonth() && today.getDate() < birthdate.getDate()));
+        const age = today.getFullYear() - birthdate.getFullYear() - (checkBirthdayAlreadyHappen(birthdate, today) ? 0:1);
         return age;
       }
 
