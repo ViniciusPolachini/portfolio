@@ -44,7 +44,7 @@ export default function LinksButton({showItens, setShowItens}: {showItens: boole
     });
 
     
-    const buttonClickAnimation = (type) => {
+    const buttonClickAnimation = (type: any) => {
         const width = window.innerWidth;
         const originalPadding = width >= 1536 ? '3rem':'1.5rem';
         const decreasePadding = width >= 1536 ? '2.5rem':'1rem';
