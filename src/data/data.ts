@@ -13,7 +13,7 @@ export const projects: Array<IProject> = [
 {
     title: "Zink",
     icon: "/assets/zink.jpeg",
-    description: "O projeto se trata de uma fintech para antecipação de recebiveis. Atuei principalemente na área de segurança, vasculhando por vulnerabilidades, aplicando correções e aplicando as correções solicitadas por dois pentests.",
+    description: "O projeto se trata de uma fintech para antecipação de recebíveis. Atuei principalmente na área de segurança, vasculhando por vulnerabilidades, aplicando correções e aplicando as correções solicitadas por dois pentests.",
     technologies: [
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg", 
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg",
