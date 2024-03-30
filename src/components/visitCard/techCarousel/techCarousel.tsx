@@ -19,8 +19,8 @@ export default function TechCarousel(){
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg", 
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg",
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg",
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg"
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg",
     ]
     const techsIlusionList = techs.concat(techs);
     const [iconSize, setIconSize] =  useState<number>(0);
@@ -65,10 +65,6 @@ export default function TechCarousel(){
               alt="logo"
               width={iconSize}
               height={iconSize}
-              style={{
-                height: 'auto',
-                width: 'auto'
-              }}
               />
              )
              }

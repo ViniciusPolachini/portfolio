@@ -11,12 +11,8 @@ export default function Technologies({techs} : {techs: Array<string>}){
                     key={index}
                     src={src}
                     alt="icon"
-                    width={0}
-                    height={0}
-                    style={{
-                        height: "15%",
-                        width: "15%"
-                    }}
+                    width={50}
+                    height={50}
                     />    
                 )
             }

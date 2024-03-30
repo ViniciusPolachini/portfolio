@@ -6,8 +6,8 @@ export const projects: Array<IProject> = [
     icon: "/assets/magote.jpg",
     description: "O projeto se trata de um site para comprar vouchers para procedimentos estéticos. Atuei tanto no frontend e no backend, fazendo principalmente manutenções e melhorias no projeto.",
     technologies: [
-    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg",
-    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg",
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"]
 },
 {

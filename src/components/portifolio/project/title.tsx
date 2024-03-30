@@ -10,10 +10,6 @@ export default function Title({title, image}: {title: string, image: string}){
                 alt="icon"
                 width={100}
                 height={100}
-                style={{
-                    width: "25%",
-                    height: "auto"
-                }}
                 className="rounded-3xl m-4"
                 />
                 <p className="text-[200%]">{title}</p>
