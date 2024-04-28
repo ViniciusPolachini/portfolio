@@ -12,7 +12,7 @@ export default function ProfileDetails(){
       }
 
     return(
-        <div className=" w-5/6 2xl:mt-8 mt-4 xl:text-[1.5vw] text-[2vw] flex flex-row items-center justify-between">
+        <div className=" w-5/6 2xl:mt-8 mt-4 xl:text-[1.5vw] text-[2.2vw] flex flex-row items-center justify-between">
             <div className=" xl:border-l-2 border-l-[1px] border-sold border-light-green-1 pl-2">
                 <ul>
                     <li>Idade: {age()}</li>

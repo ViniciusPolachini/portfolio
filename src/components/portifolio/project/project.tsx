@@ -5,7 +5,7 @@ import Description from "./description";
 
 export default function Project({project} : {project: IProject}){
     return(
-        <div className=" bg-white h-[50rem] mx-5 my-10 rounded-3xl">
+        <div className=" bg-white h-[35rem] mx-5 my-10 rounded-3xl">
             <div>
             <Title
             title = {project.title}
