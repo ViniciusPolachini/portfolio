@@ -5,9 +5,10 @@ import ProfileArt from "./profileArt/profileArt";
 
 
 export default function VisitCard() {
-    const [windowWidth, setWindowWidth] = useState<number>(window.innerWidth);
+    const [windowWidth, setWindowWidth] = useState<number>(0);
 
     useEffect(() => {
+        setWindowWidth(window.innerWidth);
         const updateWindowWidth = () => {
             setWindowWidth(window.innerWidth);
         };
